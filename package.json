@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "gulp": "gulp",
+    "sass": "gulp sass",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "del": "^6.1.1",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-run": "^1.7.1"
   }
 }

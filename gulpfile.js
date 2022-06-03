@@ -1,6 +1,7 @@
 "use strict";
 
 const gulp = require("gulp");
+var run = require("gulp-run");
 const sass = require("gulp-sass")(require("sass"));
 const del = require("del");
 
@@ -25,5 +26,11 @@ gulp.task("watch", () => {
 gulp.task("clean", () => {
   return del(["src/css/**/*.*"]);
 });
+
+gulp.task("build", function () {
+  return run("npm run build").exec();
+});
+
+gulp.task("deploy", gulp.series(["clean", "sass", "build"]));
 
 gulp.task("default", gulp.series(["clean", "sass"]));
