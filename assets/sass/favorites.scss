@@ -1,0 +1,50 @@
+@import 'main';
+@import 'variables';
+
+
+
+.meus-filmes{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > h1{
+    margin-bottom: 14px;
+  }
+
+  > span{
+    font-size: 18px;
+  }
+
+  > ul{
+    width: 720px;
+
+    li{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+  }
+
+  > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: $blue;
+      margin-right: 14px;
+    }
+
+    button {
+      padding: 2px 5px;
+    }
+  }
+}
+
+
+

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify'
 
-import "./film.css";
+import "../../css/film.css";
 
 import api from "../../services/api";
 

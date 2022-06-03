@@ -1,5 +1,5 @@
+import "../../css/favorites.css";
 import { useEffect, useState } from "react";
-import "./favorites.css";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 
