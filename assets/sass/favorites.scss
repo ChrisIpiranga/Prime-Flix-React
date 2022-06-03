@@ -19,6 +19,7 @@
 
   > ul{
     width: 720px;
+    max-width: 100%;
 
     li{
       list-style: none;
@@ -26,22 +27,22 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 14px;
-    }
-  }
 
-  > div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+      > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    a {
-      text-decoration: none;
-      color: $blue;
-      margin-right: 14px;
-    }
+        a {
+          text-decoration: none;
+          color: $blue;
+          margin-right: 14px;
+        }
 
-    button {
-      padding: 2px 5px;
+        button {
+          padding: 2px 5px;
+        }
+      }
     }
   }
 }
